@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    margin: 10px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.rectangle {
+    height: 100px;
+    width: 150px;
+    background-color: blueviolet;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.oval {
+    height: 100px;
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.triangle {
+    height: 0px;
+    width: 0px;
+    /*border: 100px solid grey;*/
+    /*border-top: 100px solid red;*/
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid blueviolet;
+}
